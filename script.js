@@ -68,11 +68,7 @@ function getLocation() {
         getWeather(lon, lat);
       },
       (error) => {
-       navigator.geolocation.getCurrentPosition(
-      (position) => {
-        const lon = position.coords.longitude;
-        const lat = position.coords.latitude;
-        getWeather(lon, lat);
+       alert("failed to get location");
       }
     );
   } else {
