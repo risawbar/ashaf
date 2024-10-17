@@ -68,7 +68,7 @@ function getLocation() {
         getWeather(lon, lat);
       },
       (error) => {
-       alert("failed to get location");
+       alert("GPSnya Nyalain Dulu Bosss");
       }
     );
   } else {
